@@ -33,6 +33,8 @@ This repository contains Terraform code to deploy a containerized React + TypeSc
    cd spotify-terraform
    ```
 
+2. Environment Variables:
+
 ```bash
 export ARM_SUBSCRIPTION_ID="<your-subscription-id>"
 export ARM_TENANT_ID="<your-tenant-id>"
@@ -65,7 +67,3 @@ terraform destroy
 ```
 
 ![ACA Configuration (last)](screenshots/terraformdestroy.png)
-
-```
-
-```
