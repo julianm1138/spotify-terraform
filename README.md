@@ -40,7 +40,7 @@ export ARM_SUBSCRIPTION_ID="<your-subscription-id>"
 export ARM_TENANT_ID="<your-tenant-id>"
 export ACR_USERNAME="<your-acr-username>"
 export ACR_PASSWORD="<your-acr-password>"
-````
+```
 
 ```bash
 terraform init
@@ -60,12 +60,12 @@ terraform apply
 
 ![ACA Configuration (last)](screenshots/terraformapply.png)
 
+![ACA Configuration (last)](screenshots/terraformapply2.png)
+
 ```bash
 terraform destroy
 ```
 
 ![ACA Configuration (last)](screenshots/terraformdestroy.png)
 
-![ACA Configuration (last)](screenshots/terraformapply.png)
-
-![ACA Configuration (last)](screenshots/terraformapply2.png)
+````
