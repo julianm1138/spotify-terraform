@@ -44,16 +44,27 @@ export ACR_PASSWORD="<your-acr-password>"
 
 ```bash
 terraform init
+```
 
 ![ACA Configuration (last)](screenshots/terraforminit.png)
+
+```bash
 terraform plan
+```
 
 ![ACA Configuration (last)](screenshots/terraformplan.png)
+
+```bash
 terraform apply
-![ACA Configuration (last)](screenshots/terraformapply.png)
-terraform destroy
-![ACA Configuration (last)](screenshots/terraformdestroy.png)
 ```
+
+![ACA Configuration (last)](screenshots/terraformapply.png)
+
+```bash
+terraform destroy
+```
+
+![ACA Configuration (last)](screenshots/terraformdestroy.png)
 
 ![ACA Configuration (last)](screenshots/terraformapply.png)
 
