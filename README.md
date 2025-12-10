@@ -1,6 +1,6 @@
 # Spotify Clone - Terraform Deployment
 
-This repository contains Terraform code to deploy a containerized React + TypeScript Spotify clone to **Azure**. It demonstrates infrastructure-as-code (IaC), cloud deployment, and automation skills relevant for junior DevOps roles.
+This repository contains Terraform code to deploy a containerized React + TypeScript Spotify clone to **Azure**. 
 
 ## Overview
 
@@ -32,12 +32,16 @@ This repository contains Terraform code to deploy a containerized React + TypeSc
    git clone <repo-url>
    cd spotify-terraform
 
+```
 
+```bash
 export ARM_SUBSCRIPTION_ID="<your-subscription-id>"
 export ARM_TENANT_ID="<your-tenant-id>"
 export ACR_USERNAME="<your-acr-username>"
 export ACR_PASSWORD="<your-acr-password>"
+```
 
+```bash
 terraform init
 terraform plan
 terraform apply
